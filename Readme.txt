@@ -27,4 +27,4 @@ main.py: 		python code to download and process json file.
 constant.py: 		contains the classes for path variables, tablenames, DB variables, sql queries.
 db_credentials.txt: 	contains the DB variables.
 
-	
+Note: If we are running from linux system then directly run sh start.sh and if we have to run it through notebook we can copy the content of start.sh in a cell and execute the line of code through os.system()
