@@ -20,11 +20,11 @@ Process:
 	write it down to the RDBMS
 
  
-requirements.txt: is the file containing the dependencies list to be installed.
-start.sh:is the driver program which will install all the dependencies mentioned in the above requirement file, set up the env and 		
-		 triggers the execution of python code.
-main.py: is the python code to download and process json file.
-constant.py: contains the classes for path variables, tablenames, DB variables, sql queries.
-db_credentials.txt: contains the DB variables.
+requirements.txt: 	contains the dependencies list to be installed.
+start.sh:		driver program which will install all the dependencies mentioned in the above requirement file, set up the env and 		
+	 		triggers the execution of python code.
+main.py: 		python code to download and process json file.
+constant.py: 		contains the classes for path variables, tablenames, DB variables, sql queries.
+db_credentials.txt: 	contains the DB variables.
 
 	
