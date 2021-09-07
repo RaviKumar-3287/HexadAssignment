@@ -1,0 +1,6 @@
+natsort==7.0.1
+pandas==1.2.1
+pyodbc==4.0.30
+os
+pathlib
+sqlalchemy
