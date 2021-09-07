@@ -13,11 +13,12 @@ Assumptions:
 
 Process:
 ========
-	Read json file through python.
-	Extract column names from ['meta']['view']['columns']
-	Extract data from nested list in a dataframe
-	assign column names to the dataframe
-	write it down to the RDBMS
+	1. Read json file through python.
+	2. Extract column names from ['meta']['view']['columns']
+	3. Extract data from nested list in a dataframe
+	4. drop rows with null values in all columns(can also add schema validation and specific columns null check)
+	5. assign column names to the dataframe.
+	6. write it down to the RDBMS.
 
  
 requirements.txt: 	contains the dependencies list to be installed.
